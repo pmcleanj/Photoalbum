@@ -1,0 +1,12 @@
+---
+bg: "StirUp2018.jpg"
+layout: page
+crawlertitle: "PhotoAlbum"
+title: "Photo Album"
+---
+
+{% for photo in site.Photos %}
+  <article class="index-page">
+    <h3><a href="{{ photo.url | relative_url }}">{{ photo.title }}</a></h3>
+  </article>
+{% endfor %}
