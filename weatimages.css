@@ -1,0 +1,110 @@
+/*
+Weatimages 1.7.4 stylesheet
+$Id: weatimages.css,v 1.10 2011/03/07 17:15:06 Vova Exp $
+*/
+
+body {
+	font-family: "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+	color: #333333;
+	font-size: 11px;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+	background-color: #FFFFFF;
+}
+a, a:link, a:visited {
+	color: #002277;
+	text-decoration: underline;
+}
+a:hover {
+	color: #EE5500;
+}
+a:active {
+	color: #FF0000;
+}
+.weatimages_thumbnail_cell {/* cell displayed in album view and containing image thumbnail, filename, description */
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 4px 4px 8px 4px;
+	border-style: solid;
+	border-color: #DDDDDD;
+	text-align: center;
+	vertical-align: top;
+}
+.weatimages_thumb_border {/* border of thumbnail */
+	padding: 0px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	margin: 6px 6px 2px 6px;
+}
+.weatimages_link_size {/* links to original/resized image displayed under thumbnail in album */
+	font-size: 9px;
+	text-decoration: underline;
+	color: #333366;
+	text-align: center;
+}
+.weatimages_filename {/* filename displayed under image thumbnail in album */
+	font-size: 9px;
+	color: #666666;
+	font-weight: bold;
+	text-align: center;
+}
+.weatimages_image_desc {/* description (from textfile or exif) displayed under image thumbnail in album */
+	color: #555555;
+	text-align: center;
+}
+.weatimages_pages_navigator {/* pager */
+	font-size: 12px;
+	color: #003366;
+	text-align: center;
+}
+.weatimages_header {/* page title line - album/image name (or description) */
+	font-size: 15px;
+	color: #333333;
+	margin-top: 4px;
+	margin-bottom: 2px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.weatimages_comment {/* string under page title - album/image description */
+	font-size: 12px;
+	color: #555555;
+	margin-bottom: 3px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.weatimages_thumb_album_name {/* album name shown on the right of album thumbnail */
+	font-size: 14px;
+	color: #333333;
+}
+.weatimages_thumb_album_desc {/* album decsription shown on the right of album thumbnail */
+	font-size: 12px;
+	color: #555555;
+}
+.weatimages_bigimage {/* style for big version of image */
+	padding: 0px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #444444;
+	margin: 5px;
+	text-align: center;
+}
+.weatimages_container_navig {/* links to next/previous images displayed at the page vith big version of image */
+	font-size: 11px;
+	text-decoration: underline;
+}
+.weatimages_toppest_navig {/* style for a div containing top navigational links - to parent albums and next/prev images */
+	color: #555555;
+	background-color: #FAFBFB;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 5px;
+}
+.weatimages_hotkey_tip {/* tips beside links to next/previous images */
+	font-size: 11px;
+	color: #BBBBBB;
+}
